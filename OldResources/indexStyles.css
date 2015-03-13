@@ -1,0 +1,270 @@
+html, body, ul, li, div, header, aside, h1, h2, h3, h4, img, p{
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+li, h1, h2, h3, h4, p, a{
+	color: #585F69;
+}
+a{
+	text-decoration: none;
+}
+
+@font-face{
+	font-family: digital;
+	src: url("Resources/digital-7.ttf");
+}
+@font-face{
+	font-family: woman;
+	src: url("Resources/Darkwoman.otf");
+
+}
+@font-face{
+	font-family: den;
+	src: url("Resources/den.otf");
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	display: inline-block;
+}
+body {
+	margin:50px 0px; 
+	padding:0px;
+	text-align:center;
+	background-image: url("Resources/cloud-birds.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+#wrapper{
+	width:1100px;
+	margin:0px auto;		
+	text-align:left;
+	background-color:white;
+	opacity:0.9;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-radius: 50px;
+
+}
+#main-menu{
+	border-top: 3px solid white;
+	position: relative;
+	display: block;
+	font-size:15px;
+	height:52px;
+	background-color: #D0ECF7;
+	margin-bottom: 25px;
+}
+
+#main-menu > :first-child{
+	margin-left: 750px;
+}
+
+#main-menu > li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: woman;
+	font-size: 35px;
+}
+#main-menu > li > a:hover{
+	border-bottom: 2px solid #FFFFFF;
+}
+header > h1{
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 35px;
+	font-weight:normal;
+	font-family: digital;
+	font-style: italic;
+	font-size: 60px;
+}
+
+#content{
+	display:inline-block;
+	width: 600px;
+	// border:1px solid black;
+}
+
+article{
+	border-width: 10px;
+	border-bottom-left-radius: 50px;
+	border-bottom: 2px solid white;
+}
+
+article > header{
+	font-weight: normal;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 35px;
+	font-family: monospace;
+	font-size: 40px;
+}
+article > p{
+	padding-left: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+article > p > a{
+	color: blue;
+}
+article > iframe{
+	margin-left:35px;
+}
+
+article > .add_info{
+	padding-left: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: right;
+	margin-bottom: 5px;
+	
+}
+
+article:last-child{
+	margin-bottom: 100px;
+}
+#right_side_bar{
+	display: inline-block;
+	margin-left: 50px;
+	position: absolute;
+
+}
+
+#right_side_bar > aside{
+	margin-top: 5px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#right_side_bar > aside > h3{
+	font-weight: normal;
+	font-family: den;
+	font-size: 30px;
+	font-style: italic;
+	margin-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+#telerik-banner > a > img{
+	width: 150px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+#trainers > li{
+	display: block;
+	text-align: left;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+#trainers > li > a{
+	font-family: cursive;
+}
+
+#wrapper{
+	background-color: #D0ECF7;
+}
+
+#footer_container{
+	padding: 30px;
+	border-top: 3px solid white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#trainers{
+	margin-left: 50px;
+}
+
+#social_media_menu > ul > li > a > img{
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+#google_conference_list{
+	list-style-type: circle;
+}
+#google_conference_list > li{
+	margin-left: 70px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#android_picture{
+	width: 150px;
+	height: 100px;
+	border-radius: 50px;
+
+}
+
+#bug_img{
+	width: 30px;
+	height: 30px;
+}
+
+#intro_img{
+	width: 200px;
+	height: 70px;
+	padding-top:50px;
+}
+
+#visual_micro_ul{
+	list-style-type: circle;
+	margin-left: 50px;
+	font-size: 15px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#visual_micro_ul > li{
+	margin-top: 10px;
+}
+
+#visual_micro_ul > li > img{
+	margin-top: 5px;
+	display: block;
+	width: 400px;
+	height: 250px;
+	margin-left: 70px;
+}
+
+#bird1{
+	position: absolute;
+	margin-left: 850px;
+}
+
+#bird2{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 250px;
+}
+
+#sublime_logo{
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+}
+
+#github_feed{
+	margin-left: 30px;
+	padding-right: 30px;
+}

@@ -1,0 +1,207 @@
+html, body, ul, li, div, header, aside, h1, h2, h3, h4, img, p{
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+li, h1, h2, h3, h4, p, a{
+	color: #585F69;
+}
+a{
+	text-decoration: none;
+}
+
+@font-face{
+	font-family: digital;
+	src: url("../Resources/digital-7.ttf");
+}
+@font-face{
+	font-family: woman;
+	src: url("../Resources/Darkwoman.otf");
+
+}
+@font-face{
+	font-family: den;
+	src: url("../Resources/den.otf");
+}
+
+a{
+	text-decoration: none;
+}
+
+body {
+	margin:50px 0px;
+	padding:0px;
+	text-align:center;
+	background-image: url("../Resources/cloud-birds.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+#wrapper{
+	width:1100px;
+	margin:0px auto;		
+	text-align:left;
+	background-color:white;
+	opacity:0.9;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-radius: 50px;
+
+}
+#main-menu{
+	border-top: 3px solid white;
+	position: relative;
+	display: block;
+	font-size:15px;
+	height:52px;
+	background-color: #D0ECF7;
+	margin-bottom: 25px;
+}
+
+#main-menu > :first-child{
+	margin-left: 750px;
+}
+
+#main-menu > li{
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: woman;
+	font-size: 35px;
+}
+#main-menu > li > a:hover{
+	border-bottom: 2px solid #FFFFFF;
+}
+header > h1{
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 35px;
+	font-weight:normal;
+	font-family: digital;
+	font-style: italic;
+	font-size: 60px;
+}
+
+p{
+	padding-left: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#content{
+	display:inline-block;
+	width: 600px;
+	// border:1px solid black;
+}
+#right_side_bar{
+	display: inline-block;
+	margin-left: 50px;
+	position: absolute;
+
+}
+
+#right_side_bar > aside{
+	margin-top: 5px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#right_side_bar > aside > h3{
+	font-weight: normal;
+	font-family: den;
+	font-size: 30px;
+	font-style: italic;
+	margin-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+#telerik-banner > a > img{
+	width: 150px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+#wrapper{
+	background-color: #D0ECF7;
+}
+
+#footer_container{
+	padding: 30px;
+	border-top: 3px solid white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#social_media_menu > ul > li{
+	display: inline-block;
+}
+
+#social_media_menu > ul > li > a > img{
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+#bird1{
+	position: absolute;
+	margin-left: 850px;
+}
+
+#bird2{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 250px;
+}
+
+#content ul{
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-left: 30px;
+}
+
+#content > ul > li{
+	margin: 5px;
+}
+
+#right_side_bar{
+	display: inline-block;
+	margin-left: 85px;
+	position: absolute;
+
+}
+
+#right_side_bar > aside{
+	margin-top: 5px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#right_side_bar > aside > h3{
+	font-weight: normal;
+	font-family: den;
+	font-size: 30px;
+	font-style: italic;
+	margin-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+#le_me{
+	width: 150px;
+	height: 130px;
+	border-radius: 180px;
+}

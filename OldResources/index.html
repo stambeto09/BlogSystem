@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stanimir Yakimov's Blog</title>
+	<link rel="SHORTCUT ICON" href="http://icons.iconarchive.com/icons/hydrattz/multipurpose-alphabet/256/Letter-S-blue-icon.png">
+	<link rel="stylesheet" type="text/css" href = "indexStyles.css">
+	<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<img id="bird1" src="Resources/Birds/vertical_bird.png">
+			<img id="bird2" src="Resources/Birds/diagonal_top_left_bird.png">
+			<h1>Stanimir Yakimov's Blog</h1>
+			<ul id="main-menu">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="AboutMe/AboutMe.html">About me</a>
+				</li>
+			</ul>
+		</header>
+		<div id="content">
+			<article>
+				<header>Да поразцъкаме малко Snake!</header>
+				<p>Здравейте! Току-що завърших игричката Snake, която писах на JavaScript. Можете да погледнете кода <a href="https://github.com/stambeto09/JS-Snake"  target="_blank">тук</a> или пък да поразцъкате малко. Успех! :)</p>
+				<p class="add_info">18.01.2015</p>
+			</article>
+			<article>
+				<header><img id="bug_img" src="Resources\ArticlePictures\bug.png"> Bug Album :P <img id="bug_img" src="Resources\ArticlePictures\bug.png"></header>
+				<p>Във връзка със скорошната лекция по информатика, в която много сериозно се говореше как системата на УНСС е добре написана и защитена, в опозиция, бих искал да прикача няколко screenshot-а от ситуации, в които уж попаднах “случайно”, някои от които леко козметични, други включващи няколко стотин реда код и неприхванати exception-и. Enjoy!</p>
+				<p class="add_info">07.12.2014</p>
+				
+			</article>
+			<article>
+				<header>Visual Studio + Arduino == Visual Micro</header>	
+				<p>Hello everyone. In this topic I’m going to explain how to set up Visual Micro in a few steps. For this purpose, you will first need to install Visual Studio. Let’s asume that you have already did it. Then:</p>
+				<ul id="visual_micro_ul">
+					<li>Download the Visual Micro plugin from <a href="http://www.visualmicro.com/page/Arduino-Visual-Studio-Downloads.aspx">here</a></li>
+					<li>Install the plugin
+					<img src="Resources\ArticlePictures\VisualMicro\installationComplete.png" alt="Installation Complete"></li>
+					<li>Open your Visual Studio and click File -> New and you will notice the new “Sketch project” option at the bottom of the menu. Click it and enter a name for your new project
+					<img src="Resources\ArticlePictures\VisualMicro\sketchProject.png" alt="Sketch Project"></li>
+					<li>Then, we need to select our Arduino board type. As you’ve already noticed there’s a new toolbar related to our Arduino options at the top left corner. 
+					<img src="Resources\ArticlePictures\VisualMicro\arduinoToolbar.png" alt="Arduino Toolbar"></li>
+					<li>If the menu is not shown you can always right click on the blanked space and select the Arduino Boards option or go to Tools -> Visual Micro -> Boards</li>
+					<li>Connect your Arduino to your PC. Now we have to set our serial port to COM6 as we did before in the Arduino IDE. Go to Tools -> Serial Port and select COM6 – Arduino
+					<img src="Resources\ArticlePictures\VisualMicro\arduinoPort.png" alt="Arduino Port"></li>
+					<li>
+						After that, we have to select our programmer type. Again, navigate to Tools -> Visual Micro -> Programmers and select Arduino as ISP.
+						<img src="Resources\ArticlePictures\VisualMicro\arduinoPort.png" alt="Arduino Programmer">
+					</li>
+				</ul>
+				<p>And that’s all. You are ready to write with the coolest autocomplete ever for your favorite Arduino board. Hope I was helpful. Thank you so much.</p>
+				<p class="add_info">06.12.2014</p>
+			</article>
+			<article>
+				<header><img id="intro_img" src="Resources\ArticlePictures\intro.png"> to Algorithms</header>	
+				<p>Здравейте. Започнах да чета книгата Introduction to Algorithms – Third Edition и качвам решенията си на упражненията и проблемите в <a href="github.com/stambeto09">GitHub</a> профила си. Ако някой се интересува може да погледне.</p>
+				<p class="add_info">01.08.2014</p>
+			</article>
+			<article>
+				<header>Google I<img id="android_picture" src="Resources\ArticlePictures\androidPicture.png" alt="">O 2014</header>	
+				<p>Здравейте. Google I/O конференцията върви с бясна скорост в момента и Google изглежда ще осъществят мечтата си да създадат една така наречена от тях “Екосистема”, като за 2014 година обявиха:
+				<ul id="google_conference_list">
+					<li>Новият Android L или иначе казано Android 5.0. “Ще” го пуснат е много грешно казано, защото Nexus 7 и 5 устройствата вече получиха update към него. Останалите телефони ще могат да се похвалят с Android L наесен.</li>
+					<li>Новият Android L ще може да се похвали с така наречената “Material Design” технология, която ще се състои в това да промени изцяло познатият ни от нас интефейс, като добави малко триизмерно наслагване на слоеве един върху друг. Най-интересното е обаче е, че телефоните които не поддържат L, т.е 4.5 и надолу, също ще могат да подкарват приложенията, които са писани с Material Design, но ще си ползват стария интерфейс, което все пак е задоволително.</li>
+					<li>Samsung, Motorola и LG вече са пуснали часовниците си на пазара, а разработчиците вече могат да пишат мобилни приложения за часовник.</li>
+					<li>На есен ще излязат и телевизорите с Android операционна система, а за тях вече могат да се разработват приложения.</li>
+					<li>Google вече пуснаха Android Studio 0.8 beta версията, която поддържа API L, както и разработка на приложения за часовник и телевизор. За съжаление не успяхме да update-нем от версия към 0.6 директно, а трябваше да си сваляме цялото студио наново.</li>
+					<li>Google пуснаха и Google Keyboard-a, която поддържа Material Design, всички по-известни езици, както и swipe typing, за сега само на латиница.</li>
+				</ul>
+				</p>
+				<p>Ще продължавам да следя конференцията с интерес и да update-вам списъка с новости.</p>
+				<p class="add_info">29.06.2014</p>
+			</article>
+			<article>
+				<header>Как да си направим <img id="sublime_logo" src="Resources\ArticlePictures\sublime_text_logo.png"> една по-приветлива среда за живот?</header>	
+				<p>Здравейте. Темата е за хора, които са се опитали да се справят със Sublime Text 2/3, но по една или друга причина не са успели да си направят едитора едно по-интуитивно, доближаващо се до функционалността на нашето любимо Visual Studio. Всичко това, което ще опишем в темата може да се постигне единствено с плъгина Emmet, който съществува и за Sublime Text и може да се изтегли директно чрез Package controll-а.</p>
+				<p>Надяваме се, че все пак всички, които четат публикацията са преминали през инсталирането на Package Controll-a и имат сложени вече всички базови и някои допълнителни пакети.</p>
+				<p>Да започна с HTML code snippet-a. Ако отворим html.sublime-snippet, който се намира HTML пакетите, ще видим snippet таг, който отговаря какво ще ни се генерира ако напишем html, натиснем TAB и изберем html. Давам готов snippet, който отговаря на максимално на default-ния код, генериращ се от VS при създаване на HTML файл. <a href="http://pastebin.com/AEM9fcsp">Click</a></p>
+				<p>По същия начин, тъй като в момента учим JavaScript, можем да отворим файлa, намиращ се в папката JavaScript, който отговаря например за for цикълът и да го променим на <a href="http://pastebin.com/whui61FR">това</a>. Ето и за <a href="http://pastebin.com/xqP3GvBx">If</a> , а след това и за <a href="pastebin.com/ZGPQZhXV">If-else </a>.
+				</p>
+				<p>Още малко за HTML-a. Връщаме се обратно в HTML папката и търсим файла encode_html_entities.py . В него (най-отдолу) има една функция on_query_completions. Надолу виждаме, че са изброени всички тагове. От тук можем да променяме какво и как да ни се генерира чрез autocomplete-a. Например, ако вземем script тага, който по подразбиране си е доста ужасно написан, можем просто да го заменим с (“script\t\tTag”, “script> \n\t$0\n</script>”), , което при enter ще си ни изпише отварящия и затварящия и ще ни пренесе на нов пред с една табулация навътре. Така с малко нагласяне можем да си направим и някои атрибути да ни се генерира, например като type за input.</p>
+				<p>Надявам се да съм бил полезен на някой, който ще реши да се престраши, цялата работа изглежда доста като много играчка, но се прави за не повече от 20-30 минути.</p>
+				<p class="add_info">14.06.2014</p>
+			</article>
+			<article>
+				<header>Mind Mapping</header>	
+				<p>Мисловната карта е един термин, появил се  в средата на XX век, който чисто и просто си представлява един лесен начин за изобразяване на по-комплексен проблем, съставяйки някаква дървовидна структура, описваща главните идеи или проблеми и техните по-маловажни дъщерни. В последствие обаче, на психологочески факти, започнали да се въвеждат и цветове, малки картинки и други допълнителни стилове, които спомагали лесното запомняне и открояване на комплексното съдържание. </p>
+				<p>В днешно време, mind mapping-а все още се използва, но вече в интерактивна форма. Идеята на Тони Бюзан, човекът въвел мисловната карта като термин, заедно с неговия екип, преди няколко години създават софтуер, с които много по-бързо и удобно можете да съставят вашите планове. Програмката се нарича iMindMap и си има trial версийка, която всеки може да поразцъка и да се убеди сам, като се подготви за някой друг изпит например.</p>
+				<p>Аз лично, докато бях в университета, използвах програмката, за да се подготвям по икономика – просто цветовете, разположението на самите дървета, и като цяло стилизирането, доста си помагат и от личен опит мога да твърдя, че запомнянето е в пъти повече от нормалното четене, на което всички сме свикнали. Ето и някои от моите сътворения.</p>
+				<p class="add_info">22.03.2014</p>
+			</article>
+			<article>
+				<header>Подобрението на PHP или неговия заместник?</header>	
+				<p>На 20.03 Facebook официално обявиха новосъздадения от тях език, наречен “Hack”, който  е подобрение на добре познатия ни PHP, използван за създаването на най-мащабната социална мрежа досега от Zuckerberg и екипа му.  Компанията още споделя, че техният език ще поддържа така нареченото gradual typing, което е съвкупност от dynamic typing и static typing. Самият език вече е навлязал в приложение, като не е тайна, че Facebook са подкарали страницата си на него. Повече за новината можете да прочетете <a href="http://www.wired.com/wiredenterprise/2014/03/facebook-hack/" target="_blank">тук</a>.</p>
+				<p class="add_info">21.03.2014</p>
+			</article>
+			<article>
+				<header>Stryker Team Game Project</header>	
+				<p>Прикачвам игричката, която бяхме направили с отбора ми по време на курса C#2, който вървеше през януари 2014. Целта на играта е да преминете от единият “бряг” до другия, скачайки по ледените блокове, които пък се движат по и срещу течението на реката. Wish you funny game. <a href="https://github.com/stambeto09/TeamStrykerGame" target="_blank">Click</a></p>
+				<p class="add_info">17.03.2014</p>
+			</article>
+			<article>
+				<header>Sorting Algorithms</header>	
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui alias aliquid quos eum 	necessitatibus praesentium, eligendi inventore mollitia maiores delectus harum evenie architecto itaque hic, neque! Unde, rerum maxime non.</p>
+				<p class="add_info">14.03.2014</p>
+			</article>
+			<article>
+				<header>Project Tango</header>	
+				<p>Здравейте. Вижте най-новата технология, разработвана от Google, която ще промени изцяло представите ни за иновация. Повече информация можете да намерите на официалния сайт на проекта <a href="https://www.google.com/atap/projecttango/">Project Tango</a>.</p>
+				<p class="add_info">22.02.2014</p>
+			</article>
+		</div>
+		<div id="right_side_bar">
+			<aside>
+				<script type="text/javascript" src="http://100widgets.com/js_data.php?id=106"></script>
+			</aside>
+			<aside>
+				<h3>GitHub Feeds</h3>
+				<div id="github_feed">
+					<!-- start feedwind code -->
+					<script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "https://github.com/stambeto09.atom",rssmikle_frame_width: "300",rssmikle_frame_height: "400",frame_height_by_article: "",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "off",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "New",rssmikle_title: "on",rssmikle_title_sentence: "GitHub stambeto09's Activity",rssmikle_title_link: "",rssmikle_title_bgcolor: "#0066FF",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#0066FF",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M:%S %p",item_description_style: "text",item_thumbnail: "full",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script>
+					<!-- end feedwind code -->
+				</div>
+				
+			</aside>
+			<aside id="telerik-banner">
+				<h3>Telerik Academy</h3>
+				<a href="telerikacademy.com" target="_blank"><img src="Resources\telerik-academy-banner.jpg"></a>
+			</aside>
+			<aside id="social_media_menu">
+				<h3>Find me in:</h3>
+					<ul>
+						<li><a href="https://bg-bg.facebook.com/stambeto09"><img src="Resources\Icons\facebookIcon.jpg"></a></li>
+						<li><a href="https://github.com/stambeto09"><img src="Resources\Icons\githubIcon.png"></a></li>
+						<li><a href="https://plus.google.com/+StanimirYakimov"><img src="Resources\Icons\googleIcon.png"></a></li>
+						<li><a href="https://bg.linkedin.com/pub/stanimir-yakimov/92/448/335"><img src="Resources\Icons\linkedinIcon.png"></a></li>
+						<li><a href="http://stackoverflow.com/users/3248008/stanimir-yakimov"><img src="Resources\Icons\stackIcon.png"></a></li>
+					</ul>
+			</aside>
+			<aside>
+				<h3>Blogs of our Trainers:</h3>
+				<ul id="trainers">
+					<li>Иво- <a href="http://ivaylo.bgcoder.com/" target="_blank">http://ivaylo.bgcoder.com</a></li>
+					<li>Ники- <a href="http://nikolay.it/" target="_blank">http://nikolay.it</a></li>
+					<li>Дончо- <a href="http://minkov.it/" target="_blank">http://minkov.it</a></li>
+					<li>Павел- <a href="http://pavelkolev.com/" target="_blank">http://pavelkolev.com</a></li>
+				</ul>	
+			</aside>
+			<aside>
+				<h3>In case you are a fan:</h3>
+				<iframe width="90%" height="350px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/184132830&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</aside>
+		</div>	
+		<div id="footer_container">
+			<footer>
+				<p>©2014-2015 yakimov.it</p>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
