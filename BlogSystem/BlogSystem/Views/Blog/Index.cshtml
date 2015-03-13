@@ -1,0 +1,7 @@
+﻿@model Article
+
+<article>
+    <header>@Html.Raw(@Model.ArticleName)</header>
+    @Html.Raw(@Model.Content)
+    <footer>@Html.Raw(@Model.Author + @Model.DatePublished)</footer>
+</article>

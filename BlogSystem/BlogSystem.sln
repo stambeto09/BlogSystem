@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem", "BlogSystem\BlogSystem.csproj", "{51E48992-DAF7-4F14-A266-864E2B37B464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystems.Tests", "BlogSystems.Tests\BlogSystems.Tests.csproj", "{B4CD0FC7-4E14-4183-B480-714A9C2FE701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F414EDB2-66E8-416B-BD46-8060A3718A1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2887369E-945C-4538-AD34-B8E3C3E02B03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E48992-DAF7-4F14-A266-864E2B37B464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E48992-DAF7-4F14-A266-864E2B37B464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E48992-DAF7-4F14-A266-864E2B37B464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E48992-DAF7-4F14-A266-864E2B37B464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CD0FC7-4E14-4183-B480-714A9C2FE701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CD0FC7-4E14-4183-B480-714A9C2FE701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CD0FC7-4E14-4183-B480-714A9C2FE701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CD0FC7-4E14-4183-B480-714A9C2FE701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51E48992-DAF7-4F14-A266-864E2B37B464} = {F414EDB2-66E8-416B-BD46-8060A3718A1C}
+	EndGlobalSection
+EndGlobal

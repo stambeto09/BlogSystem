@@ -1,0 +1,5 @@
+E:\GitHub\BlogSystem\BlogSystem\BlogSystems.Tests\bin\Debug\BlogSystems.Tests.dll
+E:\GitHub\BlogSystem\BlogSystem\BlogSystems.Tests\bin\Debug\BlogSystems.Tests.pdb
+E:\GitHub\BlogSystem\BlogSystem\BlogSystems.Tests\obj\Debug\BlogSystems.Tests.csprojResolveAssemblyReference.cache
+E:\GitHub\BlogSystem\BlogSystem\BlogSystems.Tests\obj\Debug\BlogSystems.Tests.dll
+E:\GitHub\BlogSystem\BlogSystem\BlogSystems.Tests\obj\Debug\BlogSystems.Tests.pdb
