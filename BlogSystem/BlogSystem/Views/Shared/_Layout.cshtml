@@ -24,7 +24,6 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -35,6 +34,14 @@
             @RenderBody()
         </div>
         <aside class="col-md-3 magazine-page">
+            <div class="headline headline-md">
+                <h2>Search</h2>
+            </div>
+            @using (Html.BeginForm("SearchByName", "Blog", FormMethod.Post))
+            {
+                <input type="search" name="name" alt="Search" />
+                <input type="submit" />
+            }
             <div class="headline headline-md">
                 <h2>Git Badge</h2>
             </div>

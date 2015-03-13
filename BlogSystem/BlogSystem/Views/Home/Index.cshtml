@@ -26,5 +26,4 @@
         @Html.Raw(@article.Content)
     </article>
 }
-
 @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
