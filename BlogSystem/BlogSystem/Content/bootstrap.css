@@ -4423,6 +4423,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin: 7.5px -15px;
 }
 
+.navbar-nav > li:hover{
+    border-bottom:1px solid #428BCA;
+}
+
     .navbar-nav > li > a {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -5128,7 +5132,7 @@ a.list-group-item.active > .badge,
     padding: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 21px;
+    font-size: 14px;
     font-weight: 200;
     line-height: 2.1428571435;
     color: #eeeeee;
@@ -5144,6 +5148,7 @@ a.list-group-item.active > .badge,
 
     .jumbotron p {
         line-height: 1.4;
+        border-left: 1px solid white;
     }
 
 .container .jumbotron {
@@ -7140,4 +7145,8 @@ body {
 
 .headline-md > h2{
     color: #428BCA;
+}
+
+.pagination-container {
+    margin-left:50px;
 }

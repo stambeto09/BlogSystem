@@ -1,5 +1,5 @@
 ﻿@model PagedList.PagedList<BlogSystem.Article>
-@using PagedList.Mvc;          
+@using PagedList.Mvc;
 
 <div class="jumbotron">
     <h1>ASP.NET</h1>
@@ -27,6 +27,4 @@
     </article>
 }
 
-<div>
-    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
-</div>
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
