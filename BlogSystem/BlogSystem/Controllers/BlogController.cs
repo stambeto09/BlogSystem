@@ -28,7 +28,7 @@
             var articles = db.Articles.ToList();
             string parsedArticleName = ParseArticleName(name).ToLower();
             Article article = articles.Find(art => art.ArticleName.ToLower()
-                .Contains(parsedArticleName));
+                                        .Contains(parsedArticleName));
 
             return View("Index", article);
         }
