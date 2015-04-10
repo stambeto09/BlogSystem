@@ -135,8 +135,8 @@
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  background-color: #222222;
+  border: 1px solid #428bca;
   border-radius: 15px;
 }
 

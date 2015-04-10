@@ -4861,8 +4861,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
             margin-left: -1px;
             line-height: 1.428571429;
             text-decoration: none;
-            background-color: #ffffff;
-            border: 1px solid #dddddd;
+            background-color: #222222;
+            border: 1px solid #428bca;
         }
 
         .pagination > li:first-child > a,
